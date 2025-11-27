@@ -1,0 +1,17 @@
+
+
+-create services using model db operation in --> services class
+
+
+
+-creating controller class where object of service class is  --> created where data are fetch or created
+
+
+-controller class object is created in route class where routes are initialized  with route handler i.e controller functions  ##--> note controller function should always be arror function because as binding is not required as arrow function are created for every instance of the the controller class
+
+
+
+-finally router class object are passed in App class constructor which is the base for connecting express-application with initialized routes 
+
+
+ summary : App class constructor  -> route class --> inside route are controller instance --->inside controller --> services class are present and finally --> inside service class model or schema is called for db operation....
